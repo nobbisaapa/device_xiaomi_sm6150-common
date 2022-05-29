@@ -15,7 +15,8 @@
  * limitations under the License.
  */
 
-#pragma once
+#ifndef ANDROID_HARDWARE_BIOMETRICS_FINGERPRINT_V2_3_BIOMETRICSFINGERPRINT_H
+#define ANDROID_HARDWARE_BIOMETRICS_FINGERPRINT_V2_3_BIOMETRICSFINGERPRINT_H
 
 #define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sm6150"
 
@@ -102,3 +103,5 @@ struct BiometricsFingerprint : public IBiometricsFingerprint {
 }  // namespace biometrics
 }  // namespace hardware
 }  // namespace android
+
+#endif  // ANDROID_HARDWARE_BIOMETRICS_FINGERPRINT_V2_3_BIOMETRICSFINGERPRINT_H
