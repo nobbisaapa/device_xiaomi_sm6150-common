@@ -16,3 +16,4 @@ dontaudit hal_wifi_default self:capability sys_module;
 
 # facebook
 dontaudit untrusted_app vendor_sysfs_soc:file { read };
+dontaudit vendor_hal_iop_default self:capability sys_admin;
